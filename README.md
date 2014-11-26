@@ -814,47 +814,6 @@ Config to set up all repositories to only push to its own remote branch
 
 	git config --global push.default current
 
-# Git and SVN
-
-## Working with SVN repositories
-
-Clone an SVN repository
-
-	git svn clone <url>
-
-Show details about the SVN repository
-
-	git svn info
-
-Pull in the latest changes from the SVN repo (Stash before rebase)
-
-	git svn rebase
-
-Push git commits back to SVN (Stash before dcommit if working directory is dirty)
-
-	git svn dcommit
-
-Squash several commits from another branch into one commit on the current branch
-
-	git merge --squash <branch>
-
-## Useful git SVN commands
-
-Show the SVN ignore file output
-
-	git svn show-ignore
-
-Append the SVN ignore info to the git exclude file
-
-	git svn show-ignore >> .git/info/exclude
-
-Create a .gitignore file based on the SVN ignore output
-
-	git svn create-ignore
-
-The git-svn-id that is included in the log info of each commit reveals the upstream repo, branch and commit info. This is the svn area dcommits will get pushed to.
- 
-	git-svn-id: svn://<url>/branches/<branch>@<svn-commit-id> <git-commit-id>
 
 # Git Bisect
 		
