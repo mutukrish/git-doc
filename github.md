@@ -672,7 +672,7 @@ Stash away current Index (Staged files)
 
 Stash with message
 
-	git stash save "My Message"
+	git stash save "My stash"
 
 Restore stashed changes (keeps the stash in the stash list)
 
