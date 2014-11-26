@@ -644,6 +644,14 @@ Check out a single file from another branch into the current branch
 Rebase takes the current branch, sets it to state of the target branch specified, the 'replays' all the branch change sets over the top.
 
 	git rebase master
+	
+	
+## Interactive rebase
+Rebase takes the all the commits in the current branch and squash it one commit, for ex: if you want to sqaush last four commits
+      
+      git rebase -i HEAD~4
+      
+It will asking for the commit to picked and the commits to squashed.
 
 ## Create and manage tags
 
