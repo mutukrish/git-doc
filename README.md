@@ -1155,14 +1155,7 @@ The fetch all pull requests with:
 
 	git fetch origin
 
-To check out a particular pull request (eg. pr/999)
+To check out a particular pull request (eg. pr/name)
 
-	git checkout pr/999
-
-
-# Good git GUI clients
-
-* [Git Tower](http://www.git-tower.com)
-* [Source Tree](http://www.sourcetreeapp.com/)
-* [GitX](http://gitx.laullon.com/) (Laullon fork)
+	git checkout pr/name
 
