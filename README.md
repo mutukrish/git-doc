@@ -22,7 +22,7 @@ With [Homebrew](http://mxcl.github.com/homebrew/)
 
 With [MacPorts](http://www.macports.org/)
 
-	sudo port install git-core +svn
+	sudo port install git-core
 		
 Or use a pre-built [installer package](http://git-scm.com/download).
 
