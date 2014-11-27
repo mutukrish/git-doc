@@ -1,4 +1,4 @@
-github-doc
+git-doc
 ==========
 
 All about git commands
